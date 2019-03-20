@@ -4,6 +4,6 @@ info:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://eureka8761:8761/eureka/,http://eureka8762:8762/eureka/
       
 foo: dev```
